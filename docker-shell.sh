@@ -25,3 +25,6 @@ docker run --rm --name data-version-cli -ti \
 -e GCP_PROJECT=$GCP_PROJECT \
 -e GCP_ZONE=$GCP_ZONE \
 -e GCS_BUCKET_NAME=$GCS_BUCKET_NAME data-version-cli
+
+
+# dvc remote add -d cheese_dataset gs://data-versioning-hw2/dvc_store
